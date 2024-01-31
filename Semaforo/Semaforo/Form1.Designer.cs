@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
             timer1 = new System.Windows.Forms.Timer(components);
             pictureBox2 = new PictureBox();
@@ -39,10 +40,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Semaforo0;
+            pictureBox1.Image = Properties.Resources.Semaforo31;
             pictureBox1.Location = new Point(55, 25);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(203, 504);
+            pictureBox1.Size = new Size(256, 98);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -55,10 +56,10 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.car;
-            pictureBox2.Location = new Point(37, 663);
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(55, 351);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(420, 166);
+            pictureBox2.Size = new Size(244, 98);
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             // 
@@ -71,7 +72,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1233, 841);
+            ClientSize = new Size(1284, 527);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Name = "Form1";

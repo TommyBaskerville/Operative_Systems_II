@@ -93,6 +93,26 @@ namespace Semaforo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Semaforo01 {
+            get {
+                object obj = ResourceManager.GetObject("Semaforo01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Semaforo1 {
+            get {
+                object obj = ResourceManager.GetObject("Semaforo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Semaforo2 {
             get {
                 object obj = ResourceManager.GetObject("Semaforo2", resourceCulture);
@@ -103,9 +123,29 @@ namespace Semaforo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Semaforo21 {
+            get {
+                object obj = ResourceManager.GetObject("Semaforo21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Semaforo3 {
             get {
                 object obj = ResourceManager.GetObject("Semaforo3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Semaforo31 {
+            get {
+                object obj = ResourceManager.GetObject("Semaforo31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
